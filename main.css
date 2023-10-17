@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body{
+    margin: 3px;
+    font-family: sa ;
+    width: 100%;
+    height: 200vh;
+}
+.section{
+    width: 100%;
+    height: 80px;
+    background-color: snow;
+}
+
+img {
+    margin-top: 10px;
+    margin-right: 8px;
+}
+
+.container{
+    margin-top: 5px;
+    margin-left: -14px;
+}
+
+.btn1{
+    background-color: #fd1e1e;
+    color: #fff;
+    --bs-btn-padding-x: 1.75rem;
+}
+.btn:hover{
+    color:#fff;
+}
+
+.input-text:focus{
+       
+  
+    box-shadow: 1px 1px 3px 1px#ff0000;
+    border-color:#ff0000;
+    outline: 0px;
+}
+
+.form-control {
+    border: 1px solid #ff0000;
+}
+
+.dropdown{
+margin-right: 570px;
+margin-top: -28px;
+}
+
+.mamad{
+    margin-right: 1325px;
+    margin-top: -80px;
+    background-color: #1eaffd;
+    color: #fff;
+}
+.menu{
+    position: relative;
+    margin-top: 45px;
+    margin-right: -555px;
+
+}
+
+.navbar{
+    margin-top: -40px;
+    width: 90%;
+}
+
+.navbar li{
+    margin-left: 15px;
+    font-size: 16px;
+    opacity: 0.6;
+}
+
+.navbar li:hover{
+    background-color: rgb(237, 229, 229);
+    border-radius: 5px;
+}
+
+.navbar-brand{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.img2{
+    height: 200px;
+    width: 500px;
+    display: flex;
+    }
+
+    .product{
+        margin-right: 100px;
+        /* overflow: hidden; */
+    }
+
+    h3{
+        font-size: 25px;
+        font-weight: 600;
+        color: #000;
+        margin-top: 10px;
+    }
+
+    hr{
+        width: 15%;
+
+    }
+
+    .card{
+        margin-right: 6.5rem;
+        margin-top: 40px;
+        border: none;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        
+    }   
+    .hr{
+        width: 100%;
+        color: rgb(255, 255, 0);
+        height: 2rem;
+    }
+    h1{
+        display: flex;
+        justify-content: center;
+
+    }
+
+
+    .circle{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+
+    .child_circle{
+        margin-top: 20px;
+        cursor: pointer;
+    }
+
+    .img_logo{
+        width: 50px;
+        height: 50px;
+    }    
+
+    .child_circle p{
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+    }
+
+    .smal_suggest{
+        margin-top: 30px;
+        margin-right: 50px;
+    }
+
+    .paragraf{
+            display: flex;
+            margin-top: 10px;
+            opacity: 0.8;
+            cursor: pointer;
+    }
+
+    .card-footer{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+        cursor: pointer;
+
+    }
+
+    .footer{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 35px;
+    }
+
+    .item p{
+        opacity: 0.7;
+        cursor: pointer;
+
+    }
+
+    .item h3{
+        opacity: 0.8;
+        cursor: pointer;
+
+    }
+
+    .item-save{
+        margin-right: 100px;
+    }
+    
+    .svgg{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+        cursor: pointer;
+    }
+
+    .svgg svg{
+        height: 30px;
+        width: 30px;
+        opacity: 0.7;
+        cursor: pointer;
+
+    }
+
+    .item-save h3{
+        opacity: 0.8;
+
+    }
+
+    .h3_specual{
+        margin-top: 30px;
+    }
+
+    .btn_bro{
+        width: 100%;
+        margin-top: 20px;
+        opacity: 0.8;
+    }
+
+    .btn_bro button{
+        width: 70px;
+    }
+
+    .btn_bro input{
+        width: 300px;
+        outline: none;
+        height: 40px;
+        border-top:none ;
+        border-right: none;
+        border-left: none;
+    }
